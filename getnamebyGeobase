@@ -1,0 +1,7 @@
+Python 2.7.9 (default, Dec 10 2014, 12:24:55) [MSC v.1500 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from GeoBases import GeoBase
+>>> geo_a = GeoBase(data='ori_por', verbose=False)
+>>> [geo_a.get(k,'name') for k in ('LHR','MCO','JFK','LAX','BKK','LAS','SFO','ORD','CDG','DXB')]
+['London Heathrow Airport', 'Orlando International Airport', 'John F Kennedy International Airport', 'Los Angeles International Airport', 'Suvarnabhumi', 'Mc Carran International Airport', 'San Francisco International Airport', "Chicago O'Hare International Airport", 'Paris - Charles-de-Gaulle', 'Dubai International Airport']
+>>>
